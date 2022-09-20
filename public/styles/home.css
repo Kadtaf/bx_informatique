@@ -1,0 +1,262 @@
+.home, .about {
+background-image:url('/public/assets-bx-informatique/semi-conducteurs.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+height: 800px;
+}
+
+.container-home {
+margin-left: 28%;
+position: relative;
+top: 30%;
+}
+
+.container-home h5 {
+margin-left: 10%;
+margin-top: 1rem;
+margin-bottom: 4rem;
+width: 100%;
+width: 45%;
+text-align: center;
+background-color:#0187bc;
+color: white;
+border-radius: 5px;
+}
+
+.container-home h1 {
+width: 65%;
+/*border: 1px solid black;*/
+text-align: center;
+background-color:rgba(224, 167, 25, 0.8);
+color:white ;
+border-radius: 5px;
+}
+
+.container-home a {
+text-decoration: none;
+color: white;
+font-size: 1rem;
+}
+
+
+.btn-home {
+display: flex;
+margin-top: 6rem;
+margin-left: 10%;
+}
+
+.btn-phones button, .btn-maps button {
+width: 250px;
+height: 50px;
+margin-right: 1rem;
+background-color:#0187bc;
+border-radius: 5px;
+box-shadow: 0px 5px 5px rgba(26, 56, 26, 0.8);
+
+}
+
+.btn-phones button:hover, .btn-maps button:hover {
+transform: translateY(-5px);
+
+}
+
+.fa-phone {
+  color: rgba(255, 255, 255, 1);
+}
+
+.wraper-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-left: 7%;
+  width: 100%;
+}
+
+
+
+.wraper h1 {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.wraper-image img {
+  width: 70%;
+  height: 300px;
+ 
+}
+
+.wraper-image img:hover {
+  transform: translateY(-.3rem);
+  transition-duration:.3s;
+}
+
+.wraper-image span {
+  margin-left: -22%;
+  position: relative;
+  bottom: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.wraper-image a {
+  text-decoration: none;
+
+}
+
+.wraper-image h3 {
+  transform: translateY(280px);
+  color: white;
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+
+.wraper-service {
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  width: 30%;
+  margin-left: 34%;
+}
+
+.wraper-service p {
+  color: rgb(174, 167, 167);
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.wrap-service h3 {
+  text-align: center;
+  top: -25%;
+  transform: translateY(100px);
+  color: white;
+}
+
+.fa-wifi {
+  font-size: 3rem;
+  color: #0187bc;
+  margin-bottom: 1rem;
+}
+.video {
+  max-width: 1300px;
+  margin-left: 7%;
+  background-color:rgb(251, 249, 249, 0.9) ;
+}
+
+.fa-euro-sign, .fa-clock, .fa-percent, .fa-laptop, .fa-book, .fa-download, .fa-server, .fa-network-wired, .disk, .fa-users-rectangle {
+  font-size: 3rem;
+  color: #0187bc;
+  margin-right: 1rem;
+  margin-top: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+
+.title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: gray;
+}
+
+
+.title-part {
+  display: flex;
+  width: 60%;
+  margin-top: 1rem;
+}
+
+.title-part h5 {
+  font-size: 1.2rem;
+}
+.title-part h5:nth-child(2) {
+  margin-top: 1.5rem;
+}
+
+.wraper-sav {
+  display: block;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.service-depa-1, .service-depa-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.service-depa-1 p, .service-depa-2 p, .service-depa-3 p {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  color: rgba(128, 128, 128, .9);
+}
+
+.service-depa-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 80%;
+  margin: 4rem auto 3rem auto;
+}
+
+.service-depa-3 img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%/50%;
+}
+
+.partner {
+  margin-bottom: 3rem;
+}
+
+.icon-conf {
+  margin-bottom: 3rem;
+}
+
+/*--Apropos de nous ---*/
+.about-us {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+
+}
+
+.us img {
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.para-us {
+  border: 1px solid black;
+  margin-left: 4rem;
+  border-radius: 5px;
+  background-color:rgba(2, 181, 213, 0.5);
+  margin-bottom: 2rem;
+  width: 100%;
+
+
+}
+
+.about h1 {
+  text-align: center;
+  position: relative;
+  top: 30%;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.para-us p:nth-child(n+1) {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.para-us >p {
+  margin-top: 2rem;
+}
+
+
+

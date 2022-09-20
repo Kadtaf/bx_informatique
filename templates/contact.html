@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://kit.fontawesome.com/7a969167f1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/public/styles/navbar.css">
+  <link rel="stylesheet" href="/public/styles/footer.css">
+  <link rel="stylesheet" href="/public/styles/contact.css">
+
+  <title>Contact</title>
+</head>
+<body>
+  <header>
+      <nav class="navbar blue-mode" role="navigation">
+          <div class="navbar_logo">
+            <img src="/public/assets-bx-informatique/logo-du-service-informatique.jpg" alt="log">
+          </div>
+          <ul class="navbar_links">
+              <li class="navbar_link first"><a href="/templates/accueil.html">Accueil</a></li>
+              <li class="navbar_link second"><a href="/templates/particulier.html">Particuliers</a></li>
+              <li class="navbar_link third"><a href="/templates/entreprise.html">Entreprises</a></li>
+              <li class="navbar_link four"><a href="/templates/apropos.html">A propos</a></li>
+              <li class="navbar_link fifth"><a href="templates/contact.html">Contact</a></li>
+          </ul>
+          <button class="burger">
+              <span class="bar"></span>
+          </button> <span class="menu">Menu</span>
+      </nav>
+  </header>
+  <section class="contact">
+    <h1>Un petit message ?</h1>
+  </section>
+  <section class="">
+      <div class="container">
+          <div class="header">
+            <h1>Contactez l’équipe de Bordeaux-informatique</h1>
+            <p>Vous êtes particulier ou professionnelle et souhaitez travailler avec Bordeaux-informatique ? Vous souhaitez nous proposer un partenariat ?
+                Vous avez une question relative à nos services ? Contactez-nous soit par télèphone ou par mail à l’aide du formulaire de contact ci-dessous.</p>
+          </div>  
+          <div class="card-contact">
+              <div class="card-phone">
+                <a href="tel:0524609000">
+                  <div class="phone">
+                    <i class="fa-sharp fa-solid fa-phone-volume"></i>
+                  </div>
+                  <h4>Par téléphone</h4>
+                  <p class="text-small-para">05 24 60 9000 </p>
+                </a>
+              </div>
+              <div class="card-email">
+                  <a href="mailto:contact@depanordi-bordeaux.fr">
+                  <div class="email">
+                    <i class="fa-solid fa-at"></i>
+                  </div>
+                  <h4>Par email</h4>
+                  <p class="text-small-para">contact@depanordi-bordeaux.fr</p>
+                  </a>
+              </div>
+              <div class="card-address">
+                  <div class="address">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                  </div>
+                    <h4>Venez nous rencontrer</h4>
+                    <p class="text-small-para">184 rue d’Ornano, Bordeaux</p>
+              </div>
+          </div>
+          <div class="horair">
+            <h1>Du lundi au vendredi de 10h à 17h30</h1>
+          </div>
+          <form id="contact" class ="form-contact" method="POST" action=""      enctype="multipart/form-data">
+            <div class="db-field">
+                  <div class="field">
+                        <label for="name">Nom complet :</label><span class="required">*</span> 
+                        <input type="text" id="name" name="name" placeholder="Entrez votre nom complet">
+                        <small></small>
+                        <i class="fas fa-user"></i>
+                  </div>
+                  <div class="field">
+                        <label for="email">Email :</label><span class="required">*</span> 
+                        <input type="text" id ="email" name="email" placeholder="Entrez votre Email">
+                        <small></small>
+                        <i class="fa-solid fa-envelope envelope-contact"></i>
+                  </div>
+            </div>
+            <div class="db-field">
+                  <div class="field">
+                        <label for="phone">N° Téléphone :</label><span class="required">*</span>
+                        <input type="text" name="phone" id="phone" placeholder="Entrez votre N° Téléphone">
+                        <small></small>
+                        <i class="fa-solid fa-phone-alt"></i>
+                  </div>
+                  <div class="field">
+                        <label for="name">Nom de société :</label>
+                        <input type="text" name = "company" placeholder="Votre société">
+                        <i class="fa-solid fa-building"></i>
+                  </div>
+            </div>
+            <div class="message">
+                  <label for="msg">Message :</label><span class="required">*</span> 
+                  <textarea  id ="msg" name = "message" placeholder="Saisissez votre message..."></textarea>
+                  <small></small>
+                  <i class="material-icons">message</i>
+            </div>
+            <div class="button-area">
+                  <button type="submit" name="valider">Envoyez le message</button>
+                  <span class="error">Merci pour votre message. Notre équipe prendra contact avec vous dans des brèfs délai </span>
+            </div>
+        </form>
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11317.71285806431!2d-0.6005325045965066!3d44.83321206721236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527ed86277705%3A0x13beb9c3c7577558!2s184%20Rue%20d&#39;Ornano%2C%2033000%20Bordeaux!5e0!3m2!1sfr!2sfr!4v1663226819761!5m2!1sfr!2sfr"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="presta">
+          <h2>Vous avez un besoin de dépannage, un projet d’achat ou tout simplement des questions ?
+            Nous vous accueillons à l’agence du Lundi au Vendredi de 10h jusqu’à 17h30.</h2>
+        </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer_container blue-mode">
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="#"><i class="fa-brands fa-square-snapchat"></i></i></a>
+            <a href="#"><i class="fa-brands fa-square-twitter"></i></i></a>
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></i></a>
+        </div>
+        <div class="footer">
+            <div class="footer_logo">
+                <img src="" alt="">
+            </div>
+            <ul class="footer_links">
+                <li class="footer_link first"><a href="#">Accueil</a></li>
+                <li class="footer_link second"><a href="#">Services</a></li>
+                <li class="footer_link third"><a href="#">A propos de nous</a></li>
+                <li class="footer_link four"><a href="#">Mentions légales</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>bordeaux-informatique © 2022</p>
+        </div>
+    </div>
+  </footer>
+  <script src="/public/script/navbar.js"></script>
+  <script src="/public/script/contact.js"></script>
+
+</body>
+</html>

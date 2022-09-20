@@ -1,0 +1,182 @@
+/* Page particulier/Intervention-------------------------*/
+/* Variables */
+:root {
+  --part-bg-color:rgba(251, 246, 246, .8);
+  --part-color:#05c9eb;
+  --part-bd-color:rgba(255, 255, 255, 0.9);
+  --btn-bg-color: #0187bc;
+}
+
+.particular, .particular-package, .particular-supor {
+  background-image: url('/public/assets-bx-informatique/support-domicil.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+
+.particular h1, .particular-package h1, .particular-supor h1 {
+text-align: center;
+position: relative;
+top: 40%;
+font-size: 40px;
+font-weight: bold;
+border: 1px solid black;
+width: 600px;
+margin-left: 33%;
+background-color:var(--btn-bg-color);
+border-radius: 5px;
+color:var(--part-bd-color);
+
+}
+h4 {
+background-color: var(--btn-bg-color);
+color: white;
+width: 90%;
+margin-left: 1.4rem;
+}
+
+.price-particular h2, h4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+.price-speed h2, h4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.text-small, .text-small-para {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.text-small-para {
+  margin-bottom: 2rem;
+  color: gray;
+
+}
+
+
+.logo-reduction {
+  margin-left:40%;
+  margin-top:3rem;
+}
+
+.logo-reduction > img {
+  width: 20%;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+.container-part {
+  display: block;
+}
+
+.intervention-part {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.price {
+  display: block;
+  width: 100%;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.price-particular {
+ display: block;
+ margin-bottom: 1rem;
+ text-align: center;
+ border: 1px solid black;
+ border-radius: 5px;
+ background-color: var(--part-bg-color);
+ box-shadow: .25rem 0 .8rem rgba(0, 0, 0, .4);
+}
+
+.price-particular:hover, .price-speed:hover, .paragraph-part:hover, .paragraph-part-package:hover, .paragraph-part-supor:hover, .paragraph-part-workshop:hover {
+  transform: translateY(-5px);
+}
+
+.price-speed {
+  margin-top: 1rem;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: var(--part-bg-color);
+  box-shadow: .25rem 0 .8rem rgba(0, 0, 0, .4);
+
+}
+
+.paragraph-part, .paragraph-part-package, .paragraph-part-supor, .paragraph-part-workshop {
+  
+display: block;
+margin-right: 2rem;
+border: 1px solid black;
+border-radius: 5px;
+padding-top: 1rem;
+padding-left: 2rem;
+background-color: var(--part-bg-color);
+box-shadow: .25rem 0 .8rem rgba(0, 0, 0, .4);
+
+}
+
+.paragraph-part-package >p {
+  margin-top: 2rem;
+}
+
+.paragraph-part {
+  text-align: center;
+
+}
+
+/*Page particulier/package -----------------------------------------*/
+
+
+.paragraph-part-package ol {
+
+  padding-left: 3rem;
+  padding-top: 1rem;
+  }
+
+  .paragraph-part-package li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  }
+
+  /*Page particulier/supor-----------*/
+  .paragraph-part-supor {
+    width: 97%;
+    margin-left: 1.9rem;
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+
+  .text-small-para-supor {
+    margin-bottom: 2rem;
+    color: rgb(254, 13, 13);
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+  /*Page workshop particulier-----------*/
+  .workshop-part {
+    margin-top: 4rem;
+  }
+
+  .paragraph-part-workshop P:nth-child(2n+1) {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  }
+
+  .workshop-part .text-small-para {
+    color: rgb(10, 179, 10, .8);
+  }
+
+
